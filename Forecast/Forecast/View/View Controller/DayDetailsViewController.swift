@@ -25,6 +25,10 @@ class DayDetailsViewController: UIViewController {
         
         dayForcastTableView.dataSource = self
         dayForcastTableView.delegate = self
+        
+        DayController.fetchDays { _ in
+            
+        }
     }
     
     func updateViews() {
