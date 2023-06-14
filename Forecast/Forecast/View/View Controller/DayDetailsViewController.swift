@@ -27,10 +27,6 @@ class DayDetailsViewController: UIViewController {
         dayForcastTableView.delegate = self
     }
     
-    func updateViews() {
-        
-    }
-    
 }// End of class
 
 //MARK: - Extenstions
